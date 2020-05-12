@@ -1,0 +1,6 @@
+function conversao(v1)
+{
+    let r = (v1).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })//Método que converte
+    return r
+}
+console.log(conversao(34))
